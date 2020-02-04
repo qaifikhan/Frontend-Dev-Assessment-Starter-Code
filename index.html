@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search Page</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <main id="main-container">
+        <div id="search-wrapper">
+            <input id="search-box" type="text" placeholder="Type video title here..." />
+            <button id="search-btn">Search</button>
+        </div>
+
+        <div id="sort-wrapper">
+            <span>Sort by name:</span>
+            <label>
+                <input type="radio" name="sort" />
+                <span>Ascending</span>
+            </label>
+            <label>
+                <input type="radio" name="sort" />
+                <span>Descending</span>
+            </label>
+        </div>
+
+        <div id="video-card-grid">
+            <div id="card1" class="playlist-card active-card">
+                <img class="thumbnail" src="https://i.vimeocdn.com/video/600595198_390x220.webp" />
+                <h3 class="video-card-title">Croissants | Flour and Stone</h3>
+            </div>
+
+            <div id="card2" class="playlist-card">
+                <img class="thumbnail" src="https://i.vimeocdn.com/video/604150056_390x220.webp" />
+                <h3 class="video-card-title">Perfect Mashed Potatoes and Gravy</h3>
+            </div>
+
+            <div id="card3" class="playlist-card">
+                <img class="thumbnail" src="https://i.vimeocdn.com/video/726986673_390x220.webp" />
+                <h3 class="video-card-title">The Heart of Soba</h3>
+            </div>
+
+            <div id="card4" class="playlist-card">
+                <img class="thumbnail" src="https://i.vimeocdn.com/video/570486309_390x220.webp" />
+                <h3 class="video-card-title">Grilled Cheese 9 Ways</h3>
+            </div>
+
+            <div id="card5" class="playlist-card">
+                <img class="thumbnail" src="https://i.vimeocdn.com/video/602705517_390x220.webp" />
+                <h3 class="video-card-title">Pineapple Cheesecake</h3>
+            </div>
+
+            <div id="card6" class="playlist-card">
+                <img class="thumbnail" src="https://i.vimeocdn.com/video/537261616_390x220.jpg" />
+                <h3 class="video-card-title">Lemony Chicken Noodle Soup</h3>
+            </div>
+        </div>
+
+        <div id="no-result">
+            <h1>No Results Found. Please try again.</h1>
+        </div>
+    </main>
+    <script src="./index.js" ></script>
+</body>
+</html>
